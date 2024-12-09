@@ -1,2 +1,0 @@
-# STM32F103C8T6
-Learning the STM32F1

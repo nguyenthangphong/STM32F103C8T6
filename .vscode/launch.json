@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DEBUG STM32F411VET WITH OPENOCD",
+            "cwd": "${workspaceFolder}",
+            "executable": "./build/STM32F103C8T6.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "device": "STM32F103xB",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f1x.cfg"
+            ],
+            "svdFile": "STM32F103.svd",
+            "runToEntryPoint": "main",
+            "searchDir": [],
+            "showDevDebugOutput": "none"
+        }
+    ]
+}
